@@ -1,4 +1,4 @@
-## Utilizing Active Directory on Windows
+## Qwiklabs Assessment: Utilizing Active Directory
 
 ---
 
