@@ -1,4 +1,4 @@
-## Qwiklabs Assessment: Utilizing Active Directory
+## Active Directory User Management
 
 ---
 
@@ -29,7 +29,7 @@ Windows / Active Directory / System Administration Hands-On Lab
 ---
 ---
 
-## 1. Install Active Directory
+### 1. Install Active Directory
 
 Open **Windows PowerShell as Administrator**.
 
@@ -53,7 +53,7 @@ After the restart, reconnect to the Windows VM.
 
 ---
 
-## 2. Open Active Directory Administrative Center
+### 2. Open Active Directory Administrative Center
 
 Open the **Active Directory Administrative Center (ADAC)**.
 
@@ -80,7 +80,7 @@ ADAC allows administrators to manage:
 
 ---
 
-## 3. Create a New User
+### 3. Create a New User
 
 Navigate to:
 
@@ -109,7 +109,7 @@ Only the required fields need to be completed.
 
 ---
 
-## 4. Enable the User Account
+### 4. Enable the User Account
 
 After creating Alex, the account initially appears as:
 
@@ -125,7 +125,7 @@ The lab demonstrates that an account requires an acceptable password before it c
 
 ---
 
-## 5. Reset the User Password
+### 5. Reset the User Password
 
 Select the user and choose:
 
@@ -151,7 +151,7 @@ After setting the password, enable the Alex account.
 
 ---
 
-## 6. Create a New Group
+### 6. Create a New Group
 
 Navigate to the Users section and select:
 
@@ -173,7 +173,7 @@ The group name is the required information for this lab.
 
 ---
 
-## 7. Add Python Developers to Developers
+### 7. Add Python Developers to Developers
 
 Right-click:
 
@@ -211,7 +211,7 @@ Python Developers
 
 ---
 
-## 8. Add Alex to Python Developers
+### 8. Add Alex to Python Developers
 
 Open:
 
@@ -251,7 +251,7 @@ Developers
 
 ---
 
-## 9. Edit User Group Membership
+### 9. Edit User Group Membership
 
 The lab also includes an existing user named:
 
@@ -295,7 +295,7 @@ Python Developers
 
 ---
 
-## 10. Open Group Policy Management
+### 10. Open Group Policy Management
 
 Open the Windows Start menu and search for:
 
@@ -317,7 +317,7 @@ Policies can be applied to the entire domain or to specific **Organizational Uni
 
 ---
 
-## 11. Create a New Group Policy Object
+### 11. Create a New Group Policy Object
 
 Navigate to:
 
@@ -346,7 +346,7 @@ New Wallpaper
 
 ---
 
-## 12. Edit the Group Policy
+### 12. Edit the Group Policy
 
 Right-click:
 
@@ -384,7 +384,7 @@ Desktop Wallpaper
 
 ---
 
-## 13. Configure Desktop Wallpaper
+### 13. Configure Desktop Wallpaper
 
 Double-click:
 
@@ -411,7 +411,7 @@ Then click **OK**.
 ---
 ---
 
-## Active Directory & Cybersecurity Relevance
+### Active Directory & Cybersecurity Relevance
 
 Active Directory is important in enterprise cybersecurity because it provides centralized management of identities, groups, computers, and policies.
 
@@ -431,7 +431,7 @@ Managing users and groups correctly is especially important because group member
 ---
 ---
 
-## Key Concepts
+### Key Concepts
 
 | Concept                 | Description                                           |
 | ----------------------- | ----------------------------------------------------- |
@@ -449,7 +449,7 @@ Managing users and groups correctly is especially important because group member
 ---
 ---
 
-## Group Membership Structure
+### Group Membership Structure
 
 The lab created the following relationship:
 
@@ -478,9 +478,9 @@ Alosha
 ---
 ---
 
-## Administrative Tools Used
+### Administrative Tools Used
 
-### Active Directory Administrative Center
+#### Active Directory Administrative Center
 
 Used for:
 
@@ -490,7 +490,7 @@ Used for:
 * Editing user properties
 * Managing Active Directory objects
 
-### Group Policy Management
+#### Group Policy Management
 
 Used for:
 
@@ -498,7 +498,7 @@ Used for:
 * Linking GPOs to OUs
 * Managing domain policies
 
-### Group Policy Management Editor
+#### Group Policy Management Editor
 
 Used for:
 
@@ -508,13 +508,13 @@ Used for:
 ---
 ---
 
-## Troubleshooting Example
+### Troubleshooting Example
 
-### Problem
+#### Problem
 
 The newly created **Alex** account could not be enabled.
 
-### Error
+#### Error
 
 ```text
 Failed to enable the account.
@@ -522,11 +522,11 @@ The password does not meet the length,
 complexity, or history requirement of the domain.
 ```
 
-### Cause
+#### Cause
 
 The account did not have a password that satisfied the domain's password requirements.
 
-### Solution
+#### Solution
 
 1. Open **Reset Password**.
 2. Set a compliant password.
@@ -537,7 +537,7 @@ The account did not have a password that satisfied the domain's password require
 ---
 ---
 
-## Skills Demonstrated
+### Skills Demonstrated
 
 * Active Directory Administration
 * Windows Server Administration
@@ -554,7 +554,7 @@ The account did not have a password that satisfied the domain's password require
 ---
 ---
 
-## Final Takeaway
+### Final Takeaway
 
 This lab provided hands-on experience with **Active Directory administration**. I practiced creating and managing users and groups, modifying group memberships, and applying centralized configuration through Group Policy.
 
